@@ -1,0 +1,37 @@
+#shapeContainer {
+	border: solid;
+	background-color: rgb(47, 255, 203);
+	width: 600px;
+	height: 600px;
+	float: left;
+	position: relative;
+}
+
+#shapeSpecs {
+	float: left;
+	background-color: grey;
+}
+
+.square {
+	background: red;
+	position: absolute;
+}
+
+.rectangle {
+	background: darkgreen;
+	position: absolute;
+}
+
+.circle {
+	background: purple;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+}
+
+.triangle {
+	border-color: transparent;
+	border-bottom-color: yellow;
+	border-style: solid;
+}
